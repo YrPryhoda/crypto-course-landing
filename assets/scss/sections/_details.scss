@@ -23,9 +23,6 @@
 
     &__title {
         color: $darkblue;
-        text-align: center;
-        font-size: 52px;
-        letter-spacing: 0.26px;
         text-transform: uppercase;
     }
 
@@ -144,13 +141,6 @@
         &__wrap {
             padding-top: 80px;
             background-size: cover;
-        }
-
-        &__title {
-            text-align: center;
-            font-size: 32px;
-            letter-spacing: 0.16px;
-            line-height: 105%;
         }
 
         &__row {

@@ -771,9 +771,6 @@ body {
 }
 .details__title {
   color: #036;
-  text-align: center;
-  font-size: 52px;
-  letter-spacing: 0.26px;
   text-transform: uppercase;
 }
 .details__col {
@@ -901,12 +898,6 @@ body {
     padding-top: 80px;
     background-size: cover;
   }
-  .details__title {
-    text-align: center;
-    font-size: 32px;
-    letter-spacing: 0.16px;
-    line-height: 105%;
-  }
   .details__row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -978,10 +969,6 @@ body {
           justify-content: center;
 }
 .about__title {
-  text-align: center;
-  font-size: 52px;
-  letter-spacing: 0.26px;
-  text-transform: uppercase;
   margin-bottom: 40px;
 }
 .about__info-wrap {
@@ -1034,9 +1021,6 @@ body {
     padding: 50px 24px;
   }
   .about__title {
-    font-size: 32px;
-    letter-spacing: 0.16px;
-    line-height: 100%;
     margin-bottom: 24px;
   }
   .about__info-wrap {
@@ -1173,12 +1157,6 @@ body {
 }
 .feedback__title {
   color: #071829;
-  text-align: center;
-  font-size: 52px;
-  line-height: 100%;
-  font-weight: 500;
-  letter-spacing: 0.26px;
-  text-transform: uppercase;
   margin-bottom: 50px;
 }
 .feedback__subtitle {
@@ -1201,9 +1179,6 @@ body {
 @media screen and (max-width: 767px) {
   .feedback {
     padding: 50px 16px;
-  }
-  .feedback__title {
-    font-size: 32px;
   }
   .feedback__icon {
     width: 60px;
@@ -1265,13 +1240,9 @@ body {
   background-size: contain;
   opacity: 0.8;
 }
-.convince__header {
+.convince__title {
   max-width: 750px;
-  text-align: center;
-  font-size: 52px;
   line-height: 102.5%;
-  letter-spacing: 1.04px;
-  text-transform: uppercase;
   color: #071829;
   margin-bottom: 75px;
 }
@@ -1530,10 +1501,7 @@ body {
   .convince::before {
     display: none;
   }
-  .convince__header {
-    font-size: 32px;
-    line-height: 102.5%;
-    letter-spacing: 0.64px;
+  .convince__title {
     margin-bottom: 96px;
   }
   .convince__variants-block {
